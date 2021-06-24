@@ -1,5 +1,5 @@
 import "../App.css";
 var HomePage = () => {
-  return <div>im jordan</div>;
+  return <div>hey, i'm jordan</div>;
 };
 export default HomePage;
