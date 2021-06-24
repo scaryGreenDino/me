@@ -1,6 +1,29 @@
 body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 64px; font-style: normal; font-variant: normal; font-weight: 200; line-height: 26px;
+  margin: 0;
  }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 5fr 2fr;
+  gap: 10px;
+  grid-template-rows: repeat(3, 1fr);
+  min-height: 100vh;
+  font-size: calc(10px + 9vmin);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  grid-row: 2;
+  text-align: right;
+}
+.center-content {
+  flex: 1;
+  width: 100%
 }
