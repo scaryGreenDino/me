@@ -14,7 +14,7 @@ useEffect(() => {
     }, r);
   }
 }, [count, text]);
-  return (text.substring(0,count))
+  return (<p>{ text.substring(0, count) }</p>)
 }
 var HomePage = () => {
   
