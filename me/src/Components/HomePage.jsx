@@ -22,11 +22,13 @@ var HomePage = () => {
   const text = "hey, i'm jordan";
 
   useEffect(() => {
-      const r = Math.random() * 1000;
-      setTimeout(() => {
-        setCount(count + 1);
+    const b = Math.round(Math.random() * 100)
+      const r = Math.random() * 600;
+    setTimeout(() => {
+        console.log(count)
+        setCount((count + b)%1000+1);
       }, r);
-  }, [count, text]);
+  }, [count]);
   
   return (
     <div className="wrapper">
