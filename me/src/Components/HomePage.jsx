@@ -25,7 +25,6 @@ var HomePage = () => {
     const b = Math.round(Math.random() * 100)
       const r = Math.random() * 600;
     setTimeout(() => {
-        console.log(count)
         setCount((count + b)%1000+1);
       }, r);
   }, [count]);
