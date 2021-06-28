@@ -22,7 +22,7 @@ var TextType = ({text="", onComplete = ()=>{},setCharCount=()=>{} }) => {
   return text.substring(0, count);
 };
 var HomePage = () => {
-  const prompts = ["hej\ni'm jordan", "i like\nmusic\nand coding","how original","i'm procratinating an algorithms project","i hope you dont mind the text format", "but i love it"];
+  const prompts = ["hej\ni'm jordan", "i like\nmusic\nand coding","how original","i'm procrastinating an algorithms project","i hope you dont mind the text format", "but i love it"];
 
   const [count, setCount] = useState(0);
   const [charCount, setCharCount] = useState(0);
