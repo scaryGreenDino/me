@@ -9,6 +9,6 @@ var Cursor = () => {
         setOn(!!!on)
       }, r);
   }, [on]);
-    return `${on? "|": " "}f` ;
+    return `${on? "|": " "}` ;
 };
 export default Cursor;
