@@ -66,8 +66,10 @@ code {
 }
 .link {
     display: inline-flex; /* keep the background color wrapped tight */
-    padding:3px;background-color:black;color:#ffffff;
-    padding-inline: 10px;
+    background-color:black;color:#ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+
   font-size: calc(7vmin);
   text-decoration: line-through;
   text-decoration-thickness: 2px;
