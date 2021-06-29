@@ -14,6 +14,7 @@ code {
   margin: 0;
   padding: 0;
 }
+
 .center-wrapper {
   display: flex;
   flex-direction: column;
@@ -39,8 +40,49 @@ code {
   grid-row: 1;
   text-align: center;
   margin: auto;
+}
+.top-left-content {
+  font-size: calc(7vmin);
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  margin: auto;
+  display: none;
+}
+
+.middle-left-content {
+  font-size: calc(7vmin);
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  margin: auto;
+  text-decoration: solid;
+}
+
+.nav-container {
+    text-align: center; /* center the child */
+}
+.navigation {
+    display: inline-flex; /* keep the background color wrapped tight */
+    padding:3px;background-color:black;color:#ffffff;
+    padding-inline: 10px;
+  font-size: calc(7vmin);
 
 }
+@media only screen and (max-width: 600px) {
+  .wrapper {
+      grid-template-columns: 1fr 7fr 1fr;
+  grid-template-rows: 1fr 7fr 1fr;
+  }
+  .center-content {
+  flex: 1;
+  width: 100%;
+  font-size: calc(1px + 13vmin);
+  line-height: calc(1px+ 13vmin);
+}
+}
+
+
 
 
 /* #c90000	(201,0,0)
