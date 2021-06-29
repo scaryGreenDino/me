@@ -5,10 +5,10 @@ var Nav = () => {
   return (
     <div className="middle-left-content">
       <div className="nav-container">
-        <Link className="navigation" to="./">
+        <Link className="link" to="./">
           home
         </Link> 
-        <Link className="navigation" to="./music">
+        <Link className="link" to="./music">
           music
         </Link>
       </div>

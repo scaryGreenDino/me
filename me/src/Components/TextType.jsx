@@ -8,7 +8,7 @@ var TextType = ({
 
     useEffect(() => {
     if (count.text < prompts[count.prompt].length) {
-      const r = 100 + Math.random() * 100;
+      const r = 70 + Math.random() * 70;
       setTimeout(() => {
         setCount({ text: count.text + 1, prompt: count.prompt });
       }, r);

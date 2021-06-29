@@ -2,7 +2,7 @@ import "../App.css";
 import TextType from "./TextType"
 
 var HomePage = () => {
-  const prompts = ["hej\ni'm jordan", "i like\nmusic\nand coding","how original","i'm procrastinating an algorithms project","i hope you dont mind the text format", "but i love it"];
+  const prompts = ["hey,\ni'm jordan", "i like\ncoding,\nsynthesizers\nand lego","thanks for \nstopping by"];
   return (
     <>
       <div className="center-wrapper">
